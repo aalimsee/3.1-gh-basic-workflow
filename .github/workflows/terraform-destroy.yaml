@@ -3,11 +3,9 @@
 
 name: Terraform Destroy
 
-# This will run every time we create push a commit to "main" branch.
+# This will provide manual trigger event, every time we create push a commit.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
-  # push:
-  #  branches: [ "main" ]
   workflow_dispatch:
 
 
